@@ -1,0 +1,300 @@
+[26Nov2024 04:32:33.174] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[26Nov2024 04:32:33.179] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[26Nov2024 04:32:33.327] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[26Nov2024 04:32:33.387] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/cordi/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[26Nov2024 04:32:33.633] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/cordi/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.2.0/fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
+[26Nov2024 04:32:33.650] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/cordi/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.2.0/javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[26Nov2024 04:32:33.652] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/cordi/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.2.0/lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[26Nov2024 04:32:33.655] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/cordi/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.2.0/mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[26Nov2024 04:32:33.743] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[26Nov2024 04:32:35.720] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[26Nov2024 04:32:43.846] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
+[26Nov2024 04:32:43.854] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
+[26Nov2024 04:32:44.977] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[26Nov2024 04:32:45.605] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.2.0 Target: 47.3.0
+[26Nov2024 04:32:46.542] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[26Nov2024 04:32:47.579] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/cordi/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23101!/assets/.mcassetsroot' uses unexpected schema
+[26Nov2024 04:32:47.581] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/cordi/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23101!/data/.mcassetsroot' uses unexpected schema
+[26Nov2024 04:32:50.582] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[26Nov2024 04:32:50.790] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
+[26Nov2024 04:32:51.505] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[26Nov2024 04:32:51.505] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[26Nov2024 04:32:51.506] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[26Nov2024 04:32:51.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[26Nov2024 04:32:51.851] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[26Nov2024 04:32:51.877] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[26Nov2024 04:32:52.006] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[26Nov2024 04:32:52.007] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[26Nov2024 04:32:52.007] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[26Nov2024 04:32:52.008] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[26Nov2024 04:32:52.163] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[26Nov2024 04:33:02.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[26Nov2024 04:33:08.639] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 04:33:08.645] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 04:33:08.653] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 04:33:08.654] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 04:33:08.654] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 04:33:08.655] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 04:33:08.656] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 04:33:08.657] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 04:33:08.658] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 04:33:08.659] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 04:33:08.660] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 04:33:08.661] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 04:33:08.663] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 04:33:08.754] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 04:33:09.253] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 04:33:09.753] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 04:33:10.254] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 04:33:10.760] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 04:33:11.551] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 9299 ms
+[26Nov2024 04:33:11.553] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (19.525s)! For help, type "help"
+[26Nov2024 04:33:11.576] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[26Nov2024 04:33:21.605] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MrGatoX0[/127.18.230.88:35273] logged in with entity id 126 at (205.5, 66.0, -210.5)
+[26Nov2024 04:33:21.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrGatoX0 joined the game
+[26Nov2024 04:33:24.306] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2078ms or 41 ticks behind
+[26Nov2024 04:33:43.154] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: cordizzz[/127.186.100.23:42323] logged in with entity id 291 at (205.5, 64.0, -201.5)
+[26Nov2024 04:33:43.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cordizzz joined the game
+[26Nov2024 04:35:03.071] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> ai
+[26Nov2024 04:36:05.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> ontas
+[26Nov2024 04:36:46.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> guardate unas zanahorias pa luego sembrar
+[26Nov2024 04:36:53.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> y patatas
+[26Nov2024 04:36:57.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> sis
+[26Nov2024 04:37:27.025] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> quiero piedra panita
+[26Nov2024 04:37:30.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> y foco tambien
+[26Nov2024 04:37:34.100] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> cristas
+[26Nov2024 04:37:37.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> cristalñ¿
+[26Nov2024 04:37:48.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrGatoX0 has made the advancement [Stone Age]
+[26Nov2024 04:37:56.376] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> de los que te dejan rojo
+[26Nov2024 04:38:12.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cordizzz has made the advancement [Stone Age]
+[26Nov2024 04:38:26.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> les digo si quieren entrar?
+[26Nov2024 04:38:30.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> sisas
+[26Nov2024 04:38:34.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> digale pue
+[26Nov2024 04:38:35.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> adasd
+[26Nov2024 04:38:40.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cordizzz has made the advancement [Getting an Upgrade]
+[26Nov2024 04:38:50.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrGatoX0 has made the advancement [Getting an Upgrade]
+[26Nov2024 04:39:25.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> xd
+[26Nov2024 04:39:46.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> la cosa es jugar con amigos
+[26Nov2024 04:40:45.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> vamo a una cueva cordiseps
+[26Nov2024 04:40:48.273] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> go
+[26Nov2024 04:41:08.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> ontas
+[26Nov2024 04:41:21.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> ese w
+[26Nov2024 04:41:34.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> atras
+[26Nov2024 04:41:46.341] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> izquierda
+[26Nov2024 04:41:49.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> ESE W
+[26Nov2024 04:42:43.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrGatoX0 has made the advancement [Sweet Dreams]
+[26Nov2024 04:42:44.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> Z
+[26Nov2024 04:42:45.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> Z
+[26Nov2024 04:42:45.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> Z
+[26Nov2024 04:42:45.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> Z
+[26Nov2024 04:42:45.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> Z
+[26Nov2024 04:42:45.768] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> Z
+[26Nov2024 04:42:45.924] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> Z
+[26Nov2024 04:42:46.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> Z
+[26Nov2024 04:42:49.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cordizzz has made the advancement [Sweet Dreams]
+[26Nov2024 04:43:10.026] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> zzz
+[26Nov2024 04:43:28.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> caimos en una jg
+[26Nov2024 04:44:56.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> oral le dimos la vuelta al pueblo o q XD
+[26Nov2024 04:45:02.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> XDX
+[26Nov2024 04:45:20.924] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> nc
+[26Nov2024 04:46:40.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> no habia casa forja?
+[26Nov2024 04:46:48.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> IDK
+[26Nov2024 04:47:37.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> sumadre
+[26Nov2024 04:47:42.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> ese w
+[26Nov2024 04:48:17.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> gato
+[26Nov2024 04:48:18.083] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> de tanto pan voy a cagar duro
+[26Nov2024 04:48:20.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> porque eres negro
+[26Nov2024 04:48:22.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> ponte a trabajar
+[26Nov2024 04:48:27.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> aver foto
+[26Nov2024 04:48:29.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> XD
+[26Nov2024 04:48:30.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> y yo soy un rubio
+[26Nov2024 04:48:36.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> soy tu dueño
+[26Nov2024 04:48:36.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> GUATAFAC
+[26Nov2024 04:49:56.352] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> arriba
+[26Nov2024 04:51:46.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> insagu y este bioma
+[26Nov2024 04:52:28.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> ya c dormio
+[26Nov2024 04:53:12.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> yo me obligo a dormir, si me quedo en el cel no duermo
+[26Nov2024 04:53:51.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> pezes
+[26Nov2024 04:54:10.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> .v
+[26Nov2024 04:54:19.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> z
+[26Nov2024 04:54:20.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> z
+[26Nov2024 04:54:20.246] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> z
+[26Nov2024 04:54:20.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> z
+[26Nov2024 04:54:20.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> z
+[26Nov2024 04:54:20.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> z
+[26Nov2024 04:54:20.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> z
+[26Nov2024 04:54:22.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> zzzzzzzz
+[26Nov2024 04:54:23.514] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> zzzz
+[26Nov2024 04:54:23.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> z
+[26Nov2024 04:54:23.945] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> z
+[26Nov2024 04:54:24.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> z
+[26Nov2024 04:54:55.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> el demonio de sex
+[26Nov2024 04:55:11.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> onde te quedaste
+[26Nov2024 04:55:14.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> arriba
+[26Nov2024 04:55:15.989] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> soy jesus
+[26Nov2024 04:55:20.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> ese w
+[26Nov2024 04:55:23.852] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> vez la lava?
+[26Nov2024 04:55:32.468] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> no
+[26Nov2024 04:55:39.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> el agua
+[26Nov2024 04:55:42.644] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> :V
+[26Nov2024 04:55:45.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> que cae de una isla
+[26Nov2024 04:55:57.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> no:v
+[26Nov2024 04:55:59.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> pase cords
+[26Nov2024 04:56:01.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> ese w
+[26Nov2024 04:56:13.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> dc
+[26Nov2024 04:57:14.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> q
+[26Nov2024 04:58:14.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> potato se fue
+[26Nov2024 04:58:20.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> ta en tu sv creo
+[26Nov2024 04:58:29.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> drupus ta ahi
+[26Nov2024 04:58:54.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> bees
+[26Nov2024 04:59:08.941] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> los amiguitos mala onda ahora es
+[26Nov2024 05:00:16.672] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> quien
+[26Nov2024 05:00:23.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> undo algo?
+[26Nov2024 05:00:29.193] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> no
+[26Nov2024 05:00:34.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> weno
+[26Nov2024 05:00:41.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> y luego se besaron
+[26Nov2024 05:01:05.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> insagu
+[26Nov2024 05:01:09.539] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> hasta aqui se ve la jg
+[26Nov2024 05:01:27.527] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> aca hay cueva
+[26Nov2024 05:01:57.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> ontas
+[26Nov2024 05:02:08.376] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> atrasw
+[26Nov2024 05:03:30.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cordizzz has made the advancement [Monster Hunter]
+[26Nov2024 05:03:37.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrGatoX0 has made the advancement [Monster Hunter]
+[26Nov2024 05:03:49.648] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> q
+[26Nov2024 05:04:00.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> panita uste es un poste
+[26Nov2024 05:04:06.737] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> asu mecha
+[26Nov2024 05:04:10.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> 1.80
+[26Nov2024 05:04:14.567] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> 1.85
+[26Nov2024 05:04:30.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> me duele la espalda
+[26Nov2024 05:04:43.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> ese w
+[26Nov2024 05:05:01.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> pero se te olvida algo
+[26Nov2024 05:05:05.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> soy de peru
+[26Nov2024 05:05:08.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> xdxdxd
+[26Nov2024 05:06:04.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> asu
+[26Nov2024 05:06:20.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> ta bien chafota la cueva
+[26Nov2024 05:06:36.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> XD TAMADRE
+[26Nov2024 05:06:39.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> TA BIEN FEA
+[26Nov2024 05:06:57.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> UN PA ABAJO
+[26Nov2024 05:08:24.421] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> q rico duerme
+[26Nov2024 05:09:12.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> ta q sueña con las insanas
+[26Nov2024 05:09:23.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> puta chit
+[26Nov2024 05:09:58.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrGatoX0 drowned
+[26Nov2024 05:10:04.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> :v
+[26Nov2024 05:10:15.777] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made MrGatoX0 a server operator
+[26Nov2024 05:10:15.837] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> XD
+[26Nov2024 05:10:20.306] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MrGatoX0: Teleported MrGatoX0 to cordizzz]
+[26Nov2024 05:10:43.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> aver
+[26Nov2024 05:10:46.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> gpi
+[26Nov2024 05:11:10.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> nai sword
+[26Nov2024 05:11:13.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> ?
+[26Nov2024 05:12:00.884] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> NO
+[26Nov2024 05:12:03.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> taweno
+[26Nov2024 05:12:08.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> gato
+[26Nov2024 05:12:10.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> otro pa abajo o q
+[26Nov2024 05:12:11.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> dime
+[26Nov2024 05:12:12.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> teta o culo
+[26Nov2024 05:12:19.256] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> teta con culo
+[26Nov2024 05:12:56.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> como salimos si se nos rompe
+[26Nov2024 05:13:47.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> gato
+[26Nov2024 05:13:50.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> ya no los escichjare
+[26Nov2024 05:13:54.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> se descargo
+[26Nov2024 05:13:55.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> :v
+[26Nov2024 05:13:59.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> los audis
+[26Nov2024 05:14:01.890] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> diablo
+[26Nov2024 05:14:06.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> XD
+[26Nov2024 05:14:07.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> ya llegamos
+[26Nov2024 05:14:10.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> a la capa
+[26Nov2024 05:14:11.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> tamos ya en los mas bajo
+[26Nov2024 05:14:12.626] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> XDDDDDDDDDDDDDDD
+[26Nov2024 05:14:13.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> XD
+[26Nov2024 05:14:21.389] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> UNA CHIT DE CUEVA
+[26Nov2024 05:14:24.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> SISAS
+[26Nov2024 05:14:59.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> c salio
+[26Nov2024 05:15:03.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> quine
+[26Nov2024 05:15:10.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> q
+[26Nov2024 05:15:18.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> qien se salio
+[26Nov2024 05:15:23.034] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> sexboy
+[26Nov2024 05:15:28.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> tiene torch
+[26Nov2024 05:15:29.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> se esta pajeando
+[26Nov2024 05:15:49.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> yo le ilumno
+[26Nov2024 05:15:50.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> XD
+[26Nov2024 05:16:00.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> NO TENGO PICO PANITA
+[26Nov2024 05:16:03.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> ni madre
+[26Nov2024 05:16:05.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> tenog 1
+[26Nov2024 05:16:07.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> ni madera
+[26Nov2024 05:16:10.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> xd
+[26Nov2024 05:18:10.851] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> gatop
+[26Nov2024 05:18:57.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> capa -31 estamos recien panita
+[26Nov2024 05:19:21.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> xd
+[26Nov2024 05:19:22.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> xd
+[26Nov2024 05:19:31.618] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> tienes madera?
+[26Nov2024 05:19:36.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> 5
+[26Nov2024 05:19:39.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> pase
+[26Nov2024 05:19:48.183] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> mire
+[26Nov2024 05:19:49.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> tengjo mas
+[26Nov2024 05:21:15.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> q paso
+[26Nov2024 05:22:03.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> capa -8
+[26Nov2024 05:22:55.640] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> porfin capa positiva
+[26Nov2024 05:25:57.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> capa 50
+[26Nov2024 05:25:59.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> ya casi
+[26Nov2024 05:27:31.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> zzzz
+[26Nov2024 05:27:32.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> zzz
+[26Nov2024 05:27:32.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> zz
+[26Nov2024 05:27:32.717] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> z
+[26Nov2024 05:27:32.918] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> z
+[26Nov2024 05:27:33.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> z
+[26Nov2024 05:27:33.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> z
+[26Nov2024 05:27:34.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> zzz
+[26Nov2024 05:27:34.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> z
+[26Nov2024 05:27:34.619] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> z
+[26Nov2024 05:27:34.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> z
+[26Nov2024 05:27:35.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> zz
+[26Nov2024 05:27:35.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> zz
+[26Nov2024 05:27:35.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> z
+[26Nov2024 05:27:36.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> zz
+[26Nov2024 05:27:36.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> z
+[26Nov2024 05:27:36.760] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: cordizzz lost connection: Kicked for spamming
+[26Nov2024 05:27:36.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cordizzz left the game
+[26Nov2024 05:27:36.784] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[26Nov2024 05:27:41.304] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: cordizzz[/127.186.100.23:34147] logged in with entity id 13149 at (988.5, 62.0, -870.5)
+[26Nov2024 05:27:41.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cordizzz joined the game
+[26Nov2024 05:27:48.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> me expilasron
+[26Nov2024 05:27:53.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> por spam
+[26Nov2024 05:27:56.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> xd
+[26Nov2024 05:27:59.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> wtf
+[26Nov2024 05:28:03.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> duerma mamawebo
+[26Nov2024 05:28:09.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> abra la boca
+[26Nov2024 05:28:34.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> q las ñonga
+[26Nov2024 05:28:36.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> mas jg
+[26Nov2024 05:28:38.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> XD
+[26Nov2024 05:28:53.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> iene pan?
+[26Nov2024 05:28:56.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> si no le dot
+[26Nov2024 05:29:00.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> tengo
+[26Nov2024 05:29:13.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> ando kgando duro de tanto pan panita
+[26Nov2024 05:29:19.204] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> Xd}
+[26Nov2024 05:30:49.858] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> onta
+[26Nov2024 05:31:00.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MrGatoX0: Teleported cordizzz to MrGatoX0]
+[26Nov2024 05:32:17.971] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=742, y=64, z=-700} BlockPos{x=742, y=62, z=-699}
+[26Nov2024 05:32:18.063] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=742, y=64, z=-700} BlockPos{x=742, y=62, z=-699}
+[26Nov2024 05:32:33.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> salgo de una jg pa un desierto
+[26Nov2024 05:32:36.623] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> tamadre
+[26Nov2024 05:32:37.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> xd
+[26Nov2024 05:32:49.572] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> Y NI ES GRANDE ES PURO OCEANO
+[26Nov2024 05:33:05.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> puro pantano veo
+[26Nov2024 05:33:20.616] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> tamare gato
+[26Nov2024 05:33:24.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> regrese a al aldea
+[26Nov2024 05:33:29.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> XD
+[26Nov2024 05:34:13.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> UN TEMBLO
+[26Nov2024 05:34:23.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> hagalo
+[26Nov2024 05:34:44.790] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=505, y=63, z=-426} BlockPos{x=508, y=64, z=-426}
+[26Nov2024 05:34:44.849] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=505, y=63, z=-426} BlockPos{x=508, y=64, z=-426}
+[26Nov2024 05:34:47.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrGatoX0 has made the advancement [Acquire Hardware]
+[26Nov2024 05:34:54.639] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrGatoX0 has made the advancement [Diamonds!]
+[26Nov2024 05:35:01.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> q
+[26Nov2024 05:35:08.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> taba bueno
+[26Nov2024 05:35:27.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> panita la seguimos mañana
+[26Nov2024 05:35:33.768] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> dale
+[26Nov2024 05:35:36.186] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MrGatoX0 lost connection: Disconnected
+[26Nov2024 05:35:36.187] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrGatoX0 left the game
+[26Nov2024 05:35:38.657] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: cordizzz lost connection: Disconnected
+[26Nov2024 05:35:38.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cordizzz left the game
