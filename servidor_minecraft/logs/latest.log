@@ -1,300 +1,697 @@
-[26Nov2024 04:32:33.174] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[26Nov2024 04:32:33.179] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
-[26Nov2024 04:32:33.327] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[26Nov2024 04:32:33.387] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/cordi/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[26Nov2024 04:32:33.633] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/cordi/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.2.0/fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
-[26Nov2024 04:32:33.650] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/cordi/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.2.0/javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[26Nov2024 04:32:33.652] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/cordi/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.2.0/lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[26Nov2024 04:32:33.655] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/cordi/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.2.0/mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[26Nov2024 04:32:33.743] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[26Nov2024 04:32:35.720] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[26Nov2024 04:32:43.846] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
-[26Nov2024 04:32:43.854] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
-[26Nov2024 04:32:44.977] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[26Nov2024 04:32:45.605] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.2.0 Target: 47.3.0
-[26Nov2024 04:32:46.542] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[26Nov2024 04:32:47.579] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/cordi/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23101!/assets/.mcassetsroot' uses unexpected schema
-[26Nov2024 04:32:47.581] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/cordi/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23101!/data/.mcassetsroot' uses unexpected schema
-[26Nov2024 04:32:50.582] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[26Nov2024 04:32:50.790] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
-[26Nov2024 04:32:51.505] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[26Nov2024 04:32:51.505] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[26Nov2024 04:32:51.506] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[26Nov2024 04:32:51.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[26Nov2024 04:32:51.851] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[26Nov2024 04:32:51.877] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[26Nov2024 04:32:52.006] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[26Nov2024 04:32:52.007] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[26Nov2024 04:32:52.007] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[26Nov2024 04:32:52.008] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[26Nov2024 04:32:52.163] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[26Nov2024 04:33:02.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[26Nov2024 04:33:08.639] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Nov2024 04:33:08.645] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Nov2024 04:33:08.653] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Nov2024 04:33:08.654] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Nov2024 04:33:08.654] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Nov2024 04:33:08.655] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Nov2024 04:33:08.656] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Nov2024 04:33:08.657] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Nov2024 04:33:08.658] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Nov2024 04:33:08.659] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Nov2024 04:33:08.660] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Nov2024 04:33:08.661] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Nov2024 04:33:08.663] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Nov2024 04:33:08.754] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Nov2024 04:33:09.253] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Nov2024 04:33:09.753] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Nov2024 04:33:10.254] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Nov2024 04:33:10.760] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Nov2024 04:33:11.551] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 9299 ms
-[26Nov2024 04:33:11.553] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (19.525s)! For help, type "help"
-[26Nov2024 04:33:11.576] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[26Nov2024 04:33:21.605] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MrGatoX0[/127.18.230.88:35273] logged in with entity id 126 at (205.5, 66.0, -210.5)
-[26Nov2024 04:33:21.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrGatoX0 joined the game
-[26Nov2024 04:33:24.306] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2078ms or 41 ticks behind
-[26Nov2024 04:33:43.154] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: cordizzz[/127.186.100.23:42323] logged in with entity id 291 at (205.5, 64.0, -201.5)
-[26Nov2024 04:33:43.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cordizzz joined the game
-[26Nov2024 04:35:03.071] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> ai
-[26Nov2024 04:36:05.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> ontas
-[26Nov2024 04:36:46.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> guardate unas zanahorias pa luego sembrar
-[26Nov2024 04:36:53.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> y patatas
-[26Nov2024 04:36:57.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> sis
-[26Nov2024 04:37:27.025] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> quiero piedra panita
-[26Nov2024 04:37:30.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> y foco tambien
-[26Nov2024 04:37:34.100] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> cristas
-[26Nov2024 04:37:37.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> cristalñ¿
-[26Nov2024 04:37:48.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrGatoX0 has made the advancement [Stone Age]
-[26Nov2024 04:37:56.376] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> de los que te dejan rojo
-[26Nov2024 04:38:12.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cordizzz has made the advancement [Stone Age]
-[26Nov2024 04:38:26.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> les digo si quieren entrar?
-[26Nov2024 04:38:30.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> sisas
-[26Nov2024 04:38:34.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> digale pue
-[26Nov2024 04:38:35.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> adasd
-[26Nov2024 04:38:40.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cordizzz has made the advancement [Getting an Upgrade]
-[26Nov2024 04:38:50.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrGatoX0 has made the advancement [Getting an Upgrade]
-[26Nov2024 04:39:25.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> xd
-[26Nov2024 04:39:46.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> la cosa es jugar con amigos
-[26Nov2024 04:40:45.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> vamo a una cueva cordiseps
-[26Nov2024 04:40:48.273] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> go
-[26Nov2024 04:41:08.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> ontas
-[26Nov2024 04:41:21.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> ese w
-[26Nov2024 04:41:34.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> atras
-[26Nov2024 04:41:46.341] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> izquierda
-[26Nov2024 04:41:49.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> ESE W
-[26Nov2024 04:42:43.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrGatoX0 has made the advancement [Sweet Dreams]
-[26Nov2024 04:42:44.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> Z
-[26Nov2024 04:42:45.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> Z
-[26Nov2024 04:42:45.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> Z
-[26Nov2024 04:42:45.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> Z
-[26Nov2024 04:42:45.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> Z
-[26Nov2024 04:42:45.768] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> Z
-[26Nov2024 04:42:45.924] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> Z
-[26Nov2024 04:42:46.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> Z
-[26Nov2024 04:42:49.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cordizzz has made the advancement [Sweet Dreams]
-[26Nov2024 04:43:10.026] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> zzz
-[26Nov2024 04:43:28.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> caimos en una jg
-[26Nov2024 04:44:56.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> oral le dimos la vuelta al pueblo o q XD
-[26Nov2024 04:45:02.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> XDX
-[26Nov2024 04:45:20.924] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> nc
-[26Nov2024 04:46:40.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> no habia casa forja?
-[26Nov2024 04:46:48.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> IDK
-[26Nov2024 04:47:37.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> sumadre
-[26Nov2024 04:47:42.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> ese w
-[26Nov2024 04:48:17.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> gato
-[26Nov2024 04:48:18.083] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> de tanto pan voy a cagar duro
-[26Nov2024 04:48:20.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> porque eres negro
-[26Nov2024 04:48:22.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> ponte a trabajar
-[26Nov2024 04:48:27.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> aver foto
-[26Nov2024 04:48:29.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> XD
-[26Nov2024 04:48:30.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> y yo soy un rubio
-[26Nov2024 04:48:36.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> soy tu dueño
-[26Nov2024 04:48:36.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> GUATAFAC
-[26Nov2024 04:49:56.352] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> arriba
-[26Nov2024 04:51:46.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> insagu y este bioma
-[26Nov2024 04:52:28.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> ya c dormio
-[26Nov2024 04:53:12.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> yo me obligo a dormir, si me quedo en el cel no duermo
-[26Nov2024 04:53:51.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> pezes
-[26Nov2024 04:54:10.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> .v
-[26Nov2024 04:54:19.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> z
-[26Nov2024 04:54:20.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> z
-[26Nov2024 04:54:20.246] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> z
-[26Nov2024 04:54:20.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> z
-[26Nov2024 04:54:20.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> z
-[26Nov2024 04:54:20.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> z
-[26Nov2024 04:54:20.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> z
-[26Nov2024 04:54:22.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> zzzzzzzz
-[26Nov2024 04:54:23.514] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> zzzz
-[26Nov2024 04:54:23.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> z
-[26Nov2024 04:54:23.945] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> z
-[26Nov2024 04:54:24.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> z
-[26Nov2024 04:54:55.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> el demonio de sex
-[26Nov2024 04:55:11.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> onde te quedaste
-[26Nov2024 04:55:14.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> arriba
-[26Nov2024 04:55:15.989] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> soy jesus
-[26Nov2024 04:55:20.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> ese w
-[26Nov2024 04:55:23.852] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> vez la lava?
-[26Nov2024 04:55:32.468] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> no
-[26Nov2024 04:55:39.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> el agua
-[26Nov2024 04:55:42.644] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> :V
-[26Nov2024 04:55:45.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> que cae de una isla
-[26Nov2024 04:55:57.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> no:v
-[26Nov2024 04:55:59.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> pase cords
-[26Nov2024 04:56:01.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> ese w
-[26Nov2024 04:56:13.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> dc
-[26Nov2024 04:57:14.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> q
-[26Nov2024 04:58:14.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> potato se fue
-[26Nov2024 04:58:20.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> ta en tu sv creo
-[26Nov2024 04:58:29.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> drupus ta ahi
-[26Nov2024 04:58:54.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> bees
-[26Nov2024 04:59:08.941] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> los amiguitos mala onda ahora es
-[26Nov2024 05:00:16.672] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> quien
-[26Nov2024 05:00:23.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> undo algo?
-[26Nov2024 05:00:29.193] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> no
-[26Nov2024 05:00:34.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> weno
-[26Nov2024 05:00:41.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> y luego se besaron
-[26Nov2024 05:01:05.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> insagu
-[26Nov2024 05:01:09.539] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> hasta aqui se ve la jg
-[26Nov2024 05:01:27.527] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> aca hay cueva
-[26Nov2024 05:01:57.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> ontas
-[26Nov2024 05:02:08.376] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> atrasw
-[26Nov2024 05:03:30.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cordizzz has made the advancement [Monster Hunter]
-[26Nov2024 05:03:37.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrGatoX0 has made the advancement [Monster Hunter]
-[26Nov2024 05:03:49.648] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> q
-[26Nov2024 05:04:00.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> panita uste es un poste
-[26Nov2024 05:04:06.737] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> asu mecha
-[26Nov2024 05:04:10.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> 1.80
-[26Nov2024 05:04:14.567] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> 1.85
-[26Nov2024 05:04:30.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> me duele la espalda
-[26Nov2024 05:04:43.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> ese w
-[26Nov2024 05:05:01.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> pero se te olvida algo
-[26Nov2024 05:05:05.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> soy de peru
-[26Nov2024 05:05:08.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> xdxdxd
-[26Nov2024 05:06:04.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> asu
-[26Nov2024 05:06:20.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> ta bien chafota la cueva
-[26Nov2024 05:06:36.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> XD TAMADRE
-[26Nov2024 05:06:39.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> TA BIEN FEA
-[26Nov2024 05:06:57.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> UN PA ABAJO
-[26Nov2024 05:08:24.421] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> q rico duerme
-[26Nov2024 05:09:12.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> ta q sueña con las insanas
-[26Nov2024 05:09:23.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> puta chit
-[26Nov2024 05:09:58.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrGatoX0 drowned
-[26Nov2024 05:10:04.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> :v
-[26Nov2024 05:10:15.777] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made MrGatoX0 a server operator
-[26Nov2024 05:10:15.837] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> XD
-[26Nov2024 05:10:20.306] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MrGatoX0: Teleported MrGatoX0 to cordizzz]
-[26Nov2024 05:10:43.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> aver
-[26Nov2024 05:10:46.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> gpi
-[26Nov2024 05:11:10.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> nai sword
-[26Nov2024 05:11:13.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> ?
-[26Nov2024 05:12:00.884] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> NO
-[26Nov2024 05:12:03.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> taweno
-[26Nov2024 05:12:08.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> gato
-[26Nov2024 05:12:10.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> otro pa abajo o q
-[26Nov2024 05:12:11.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> dime
-[26Nov2024 05:12:12.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> teta o culo
-[26Nov2024 05:12:19.256] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> teta con culo
-[26Nov2024 05:12:56.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> como salimos si se nos rompe
-[26Nov2024 05:13:47.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> gato
-[26Nov2024 05:13:50.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> ya no los escichjare
-[26Nov2024 05:13:54.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> se descargo
-[26Nov2024 05:13:55.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> :v
-[26Nov2024 05:13:59.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> los audis
-[26Nov2024 05:14:01.890] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> diablo
-[26Nov2024 05:14:06.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> XD
-[26Nov2024 05:14:07.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> ya llegamos
-[26Nov2024 05:14:10.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> a la capa
-[26Nov2024 05:14:11.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> tamos ya en los mas bajo
-[26Nov2024 05:14:12.626] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> XDDDDDDDDDDDDDDD
-[26Nov2024 05:14:13.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> XD
-[26Nov2024 05:14:21.389] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> UNA CHIT DE CUEVA
-[26Nov2024 05:14:24.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> SISAS
-[26Nov2024 05:14:59.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> c salio
-[26Nov2024 05:15:03.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> quine
-[26Nov2024 05:15:10.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> q
-[26Nov2024 05:15:18.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> qien se salio
-[26Nov2024 05:15:23.034] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> sexboy
-[26Nov2024 05:15:28.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> tiene torch
-[26Nov2024 05:15:29.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> se esta pajeando
-[26Nov2024 05:15:49.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> yo le ilumno
-[26Nov2024 05:15:50.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> XD
-[26Nov2024 05:16:00.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> NO TENGO PICO PANITA
-[26Nov2024 05:16:03.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> ni madre
-[26Nov2024 05:16:05.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> tenog 1
-[26Nov2024 05:16:07.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> ni madera
-[26Nov2024 05:16:10.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> xd
-[26Nov2024 05:18:10.851] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> gatop
-[26Nov2024 05:18:57.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> capa -31 estamos recien panita
-[26Nov2024 05:19:21.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> xd
-[26Nov2024 05:19:22.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> xd
-[26Nov2024 05:19:31.618] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> tienes madera?
-[26Nov2024 05:19:36.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> 5
-[26Nov2024 05:19:39.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> pase
-[26Nov2024 05:19:48.183] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> mire
-[26Nov2024 05:19:49.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> tengjo mas
-[26Nov2024 05:21:15.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> q paso
-[26Nov2024 05:22:03.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> capa -8
-[26Nov2024 05:22:55.640] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> porfin capa positiva
-[26Nov2024 05:25:57.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> capa 50
-[26Nov2024 05:25:59.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> ya casi
-[26Nov2024 05:27:31.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> zzzz
-[26Nov2024 05:27:32.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> zzz
-[26Nov2024 05:27:32.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> zz
-[26Nov2024 05:27:32.717] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> z
-[26Nov2024 05:27:32.918] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> z
-[26Nov2024 05:27:33.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> z
-[26Nov2024 05:27:33.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> z
-[26Nov2024 05:27:34.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> zzz
-[26Nov2024 05:27:34.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> z
-[26Nov2024 05:27:34.619] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> z
-[26Nov2024 05:27:34.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> z
-[26Nov2024 05:27:35.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> zz
-[26Nov2024 05:27:35.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> zz
-[26Nov2024 05:27:35.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> z
-[26Nov2024 05:27:36.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> zz
-[26Nov2024 05:27:36.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> z
-[26Nov2024 05:27:36.760] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: cordizzz lost connection: Kicked for spamming
-[26Nov2024 05:27:36.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cordizzz left the game
-[26Nov2024 05:27:36.784] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[26Nov2024 05:27:41.304] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: cordizzz[/127.186.100.23:34147] logged in with entity id 13149 at (988.5, 62.0, -870.5)
-[26Nov2024 05:27:41.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cordizzz joined the game
-[26Nov2024 05:27:48.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> me expilasron
-[26Nov2024 05:27:53.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> por spam
-[26Nov2024 05:27:56.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> xd
-[26Nov2024 05:27:59.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> wtf
-[26Nov2024 05:28:03.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> duerma mamawebo
-[26Nov2024 05:28:09.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> abra la boca
-[26Nov2024 05:28:34.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> q las ñonga
-[26Nov2024 05:28:36.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> mas jg
-[26Nov2024 05:28:38.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> XD
-[26Nov2024 05:28:53.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> iene pan?
-[26Nov2024 05:28:56.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> si no le dot
-[26Nov2024 05:29:00.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> tengo
-[26Nov2024 05:29:13.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> ando kgando duro de tanto pan panita
-[26Nov2024 05:29:19.204] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> Xd}
-[26Nov2024 05:30:49.858] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> onta
-[26Nov2024 05:31:00.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MrGatoX0: Teleported cordizzz to MrGatoX0]
-[26Nov2024 05:32:17.971] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=742, y=64, z=-700} BlockPos{x=742, y=62, z=-699}
-[26Nov2024 05:32:18.063] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=742, y=64, z=-700} BlockPos{x=742, y=62, z=-699}
-[26Nov2024 05:32:33.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> salgo de una jg pa un desierto
-[26Nov2024 05:32:36.623] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> tamadre
-[26Nov2024 05:32:37.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> xd
-[26Nov2024 05:32:49.572] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> Y NI ES GRANDE ES PURO OCEANO
-[26Nov2024 05:33:05.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> puro pantano veo
-[26Nov2024 05:33:20.616] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> tamare gato
-[26Nov2024 05:33:24.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> regrese a al aldea
-[26Nov2024 05:33:29.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> XD
-[26Nov2024 05:34:13.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> UN TEMBLO
-[26Nov2024 05:34:23.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> hagalo
-[26Nov2024 05:34:44.790] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=505, y=63, z=-426} BlockPos{x=508, y=64, z=-426}
-[26Nov2024 05:34:44.849] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=505, y=63, z=-426} BlockPos{x=508, y=64, z=-426}
-[26Nov2024 05:34:47.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrGatoX0 has made the advancement [Acquire Hardware]
-[26Nov2024 05:34:54.639] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrGatoX0 has made the advancement [Diamonds!]
-[26Nov2024 05:35:01.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> q
-[26Nov2024 05:35:08.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> taba bueno
-[26Nov2024 05:35:27.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MrGatoX0> panita la seguimos mañana
-[26Nov2024 05:35:33.768] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cordizzz> dale
-[26Nov2024 05:35:36.186] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MrGatoX0 lost connection: Disconnected
-[26Nov2024 05:35:36.187] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MrGatoX0 left the game
-[26Nov2024 05:35:38.657] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: cordizzz lost connection: Disconnected
-[26Nov2024 05:35:38.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cordizzz left the game
+[26Nov2024 23:48:12.853] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[26Nov2024 23:48:12.857] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[26Nov2024 23:48:13.758] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[26Nov2024 23:48:13.826] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/cordi/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[26Nov2024 23:48:14.458] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/cordi/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.2.0/fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
+[26Nov2024 23:48:14.461] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/cordi/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.2.0/javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[26Nov2024 23:48:14.465] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/cordi/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.2.0/lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[26Nov2024 23:48:14.469] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/cordi/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.2.0/mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[26Nov2024 23:48:15.093] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: playeranimator. Using Mod File: /workspaces/cordi/servidor_minecraft/mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar
+[26Nov2024 23:48:15.093] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 9 dependencies adding them to mods collection
+[26Nov2024 23:48:20.292] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[26Nov2024 23:48:20.344] [main/ERROR] [mixin/]: Mixin config furniture-common.mixins.json does not specify "minVersion" property
+[26Nov2024 23:48:20.481] [main/ERROR] [mixin/]: Mixin config necronomicon.forge.mixins.json does not specify "minVersion" property
+[26Nov2024 23:48:20.648] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [de.maxhenkel.camera.MixinConnector]
+[26Nov2024 23:48:20.656] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[26Nov2024 23:48:20.691] [main/WARN] [mixin/]: Reference map 'graveyard-FORGE-forge-refmap.json' for graveyard-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Nov2024 23:48:20.729] [main/WARN] [mixin/]: Reference map 'mixins.call_of_yucutan.refmap.json' for mixins.call_of_yucutan.json could not be read. If this is a development environment you can ignore this message
+[26Nov2024 23:48:20.760] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 120 options available, 0 override(s) found
+[26Nov2024 23:48:20.795] [main/WARN] [mixin/]: Reference map 'handcrafted-forge-1.20.1-forge-refmap.json' for handcrafted.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Nov2024 23:48:20.824] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Nov2024 23:48:22.616] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[26Nov2024 23:48:22.622] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
+[26Nov2024 23:48:22.623] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found relics.mixins.json:ScreenMixin
+[26Nov2024 23:48:23.242] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[26Nov2024 23:48:33.011] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on refurbished_furniture.common.mixins.json:LevelChunkMixin::handler$zhk000$refurbishedFurniture$AfterRemoveBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[26Nov2024 23:48:35.381] [modloading-worker-0/INFO] [Easy NPC/]: Initializing Easy NPC (Forge) ...
+[26Nov2024 23:48:35.383] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Debug Manager ...
+[26Nov2024 23:48:35.395] [modloading-worker-0/WARN] [Easy NPC/]: [Debug Manager] Detected debug log level for Easy NPC with ALL!
+[26Nov2024 23:48:35.397] [modloading-worker-0/WARN] [Easy NPC/]: [Debug Manager] Adjusting log level for Easy NPC from ALL to INFO, for performance reasons!
+[26Nov2024 23:48:35.398] [modloading-worker-0/INFO] [Easy NPC/]: [Debug Manager] Add new logger config for Easy NPC with level INFO ...
+[26Nov2024 23:48:35.399] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Constants ...
+[26Nov2024 23:48:35.400] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Command Argument Types ...
+[26Nov2024 23:48:35.425] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Entities Types ...
+[26Nov2024 23:48:35.438] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Blocks ...
+[26Nov2024 23:48:35.450] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Blocks Entity Types ...
+[26Nov2024 23:48:35.455] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Items ...
+[26Nov2024 23:48:35.511] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Menu Handler ...
+[26Nov2024 23:48:35.558] [modloading-worker-0/INFO] [Easy NPC/]: Registering Easy NPC common config ...
+[26Nov2024 23:48:35.560] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Menu Types ...
+[26Nov2024 23:48:35.593] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Network Handler ...
+[26Nov2024 23:48:35.626] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Client Network Message Handler ...
+[26Nov2024 23:48:35.718] [modloading-worker-0/INFO] [Easy NPC/]: Registering Easy NPC client config ...
+[26Nov2024 23:48:35.832] [modloading-worker-0/INFO] [necronomicon/]: File exists, reading config for elocindev.animation_overhaul.config.AnimationsConfig.
+[26Nov2024 23:48:35.833] [modloading-worker-0/INFO] [necronomicon/]: Config for elocindev.animation_overhaul.config.AnimationsConfig read successfully.
+[26Nov2024 23:48:35.866] [modloading-worker-0/INFO] [necronomicon/]: File exists, reading config for elocindev.animation_overhaul.config.PlayerConfig.
+[26Nov2024 23:48:35.866] [modloading-worker-0/INFO] [necronomicon/]: Config for elocindev.animation_overhaul.config.PlayerConfig read successfully.
+[26Nov2024 23:48:35.869] [modloading-worker-0/INFO] [animation_overhaul/]: Animation Overhaul's Config initialized
+[26Nov2024 23:48:36.453] [modloading-worker-0/INFO] [graveyard/]: Registered JSON trade offer adapter.
+[26Nov2024 23:48:36.508] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[26Nov2024 23:48:36.522] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[26Nov2024 23:48:36.736] [modloading-worker-0/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: Could not find parent net/minecraft/client/renderer/entity/layers/RenderLayer for class com/obscuria/obscureapi/client/renderer/PatreonLayer in classloader cpw.mods.modlauncher.TransformingClassLoader@62765aec on thread Thread[#28,modloading-worker-0,5,main]
+[26Nov2024 23:48:36.741] [modloading-worker-0/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: An error occurred building event handler
+java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.layers.RenderLayer
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:141) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at net.minecraftforge.eventbus.EventSubclassTransformer.buildEvents(EventSubclassTransformer.java:97) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventSubclassTransformer.transform(EventSubclassTransformer.java:48) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBusEngine.processClass(EventBusEngine.java:26) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.service.ModLauncherService.processClassWithFlags(ModLauncherService.java:32) ~[eventbus-6.0.5.jar%2352!/:6.0.5+6.0.5+master.eb8e549b]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at java.lang.ClassLoader.defineClass0(Native Method) ~[?:?]
+	at java.lang.System$2.defineClass(System.java:2394) ~[?:?]
+	at java.lang.invoke.MethodHandles$Lookup$ClassDefiner.defineClass(MethodHandles.java:2505) ~[?:?]
+	at java.lang.invoke.InnerClassLambdaMetafactory.generateInnerClass(InnerClassLambdaMetafactory.java:361) ~[?:?]
+	at java.lang.invoke.InnerClassLambdaMetafactory.spinInnerClass(InnerClassLambdaMetafactory.java:286) ~[?:?]
+	at java.lang.invoke.InnerClassLambdaMetafactory.buildCallSite(InnerClassLambdaMetafactory.java:221) ~[?:?]
+	at java.lang.invoke.LambdaMetafactory.metafactory(LambdaMetafactory.java:341) ~[?:?]
+	at java.lang.invoke.BootstrapMethodInvoker.invoke(BootstrapMethodInvoker.java:134) ~[?:?]
+	at java.lang.invoke.CallSite.makeSite(CallSite.java:316) ~[?:?]
+	at java.lang.invoke.MethodHandleNatives.linkCallSiteImpl(MethodHandleNatives.java:274) ~[?:?]
+	at java.lang.invoke.MethodHandleNatives.linkCallSite(MethodHandleNatives.java:264) ~[?:?]
+	at com.obscuria.obscureapi.client.renderer.PatreonLayer$Mode.<clinit>(PatreonLayer.java:55) ~[obscure_api-15.jar%23214!/:com.obscuria]
+	at com.obscuria.obscureapi.ObscureAPIConfig$Client.<clinit>(ObscureAPIConfig.java:28) ~[obscure_api-15.jar%23214!/:com.obscuria]
+	at com.obscuria.obscureapi.ObscureAPIConfig.register(ObscureAPIConfig.java:46) ~[obscure_api-15.jar%23214!/:com.obscuria]
+	at com.obscuria.obscureapi.ObscureAPI.<init>(ObscureAPI.java:69) ~[obscure_api-15.jar%23214!/:com.obscuria]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:68) ~[javafmllanguage-1.20.1-47.2.0.jar%23243!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$10(ModContainer.java:123) ~[fmlcore-1.20.1-47.2.0.jar%23242!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[26Nov2024 23:48:36.743] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/obscuria/obscureapi/client/renderer/PatreonLayer for invalid dist DEDICATED_SERVER
+[26Nov2024 23:48:37.118] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[26Nov2024 23:48:37.124] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[26Nov2024 23:48:37.127] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[26Nov2024 23:48:37.129] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[26Nov2024 23:48:37.136] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[26Nov2024 23:48:37.139] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[26Nov2024 23:48:37.140] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[26Nov2024 23:48:37.142] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[26Nov2024 23:48:38.029] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
+[26Nov2024 23:48:38.131] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
+[26Nov2024 23:48:38.132] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
+[26Nov2024 23:48:38.201] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
+[26Nov2024 23:48:38.201] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
+[26Nov2024 23:48:40.401] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[26Nov2024 23:48:41.396] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: The object net.minecraft.sounds.SoundEvent@26b01384 has been registered twice for the same name treechop:chop_wood.
+[26Nov2024 23:48:52.517] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bakery:wandering_baker] was not realized!
+[26Nov2024 23:48:52.518] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:mule] was not realized!
+[26Nov2024 23:48:52.518] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:wandering_winemaker] was not realized!
+[26Nov2024 23:48:52.692] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bakery:wandering_baker] was not realized!
+[26Nov2024 23:48:52.693] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:mule] was not realized!
+[26Nov2024 23:48:52.694] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:wandering_winemaker] was not realized!
+[26Nov2024 23:48:52.695] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bakery:wandering_baker] was not realized!
+[26Nov2024 23:48:52.696] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:mule] was not realized!
+[26Nov2024 23:48:52.696] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:wandering_winemaker] was not realized!
+[26Nov2024 23:48:52.698] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bakery:wandering_baker] was not realized!
+[26Nov2024 23:48:52.699] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:mule] was not realized!
+[26Nov2024 23:48:52.700] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:wandering_winemaker] was not realized!
+[26Nov2024 23:48:52.702] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:mule] was not realized!
+[26Nov2024 23:48:52.703] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:wandering_winemaker] was not realized!
+[26Nov2024 23:48:53.208] [main/WARN] [Easy NPC/]: [Custom Entity Data] Please define a custom index instead of using the auto-generated.
+[26Nov2024 23:48:53.216] [main/INFO] [Easy NPC/]: Register data serializers ...
+[26Nov2024 23:48:53.217] [main/INFO] [Easy NPC/]: - Registering Synched Attack Data for EasyNPCBaseEntity.
+[26Nov2024 23:48:53.218] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttackData
+[26Nov2024 23:48:53.219] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttackData
+[26Nov2024 23:48:53.219] [main/INFO] [Easy NPC/]: - Registering Synched Attribute Data for EasyNPCBaseEntity.
+[26Nov2024 23:48:53.220] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[26Nov2024 23:48:53.221] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[26Nov2024 23:48:53.221] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[26Nov2024 23:48:53.222] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[26Nov2024 23:48:53.224] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[26Nov2024 23:48:53.225] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[26Nov2024 23:48:53.226] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[26Nov2024 23:48:53.226] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[26Nov2024 23:48:53.227] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[26Nov2024 23:48:53.229] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[26Nov2024 23:48:53.229] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[26Nov2024 23:48:53.230] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[26Nov2024 23:48:53.231] [main/INFO] [Easy NPC/]: - Registering Synched Navigation Data for EasyNPCBaseEntity.
+[26Nov2024 23:48:53.231] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.NavigationData
+[26Nov2024 23:48:53.233] [main/INFO] [Easy NPC/]: - Registering Synched Owner Data for EasyNPCBaseEntity.
+[26Nov2024 23:48:53.234] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.OwnerData
+[26Nov2024 23:48:53.235] [main/INFO] [Easy NPC/]: - Registering Synched Profession Data for EasyNPCBaseEntity.
+[26Nov2024 23:48:53.236] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ProfessionData
+[26Nov2024 23:48:53.237] [main/INFO] [Easy NPC/]: - Registering Synched Render Data for EasyNPCBaseEntity.
+[26Nov2024 23:48:53.238] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.RenderData
+[26Nov2024 23:48:53.239] [main/INFO] [Easy NPC/]: - Registering Synched Skin Data for EasyNPCBaseEntity.
+[26Nov2024 23:48:53.240] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.SkinData
+[26Nov2024 23:48:53.240] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.SkinData
+[26Nov2024 23:48:53.241] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.SkinData
+[26Nov2024 23:48:53.242] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.SkinData
+[26Nov2024 23:48:53.244] [main/INFO] [Easy NPC/]: - Registering Synched Sound Data for EasyNPCBaseEntity.
+[26Nov2024 23:48:53.244] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.SoundData
+[26Nov2024 23:48:53.245] [main/INFO] [Easy NPC/]: - Registering Synched Trading Data for EasyNPCBaseEntity.
+[26Nov2024 23:48:53.245] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
+[26Nov2024 23:48:53.246] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
+[26Nov2024 23:48:53.247] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
+[26Nov2024 23:48:53.249] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
+[26Nov2024 23:48:53.249] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
+[26Nov2024 23:48:53.250] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
+[26Nov2024 23:48:53.251] [main/INFO] [Easy NPC/]: - Registering Synched Variant Data for EasyNPCBaseEntity.
+[26Nov2024 23:48:53.251] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.VariantData
+[26Nov2024 23:48:53.304] [main/INFO] [Easy NPC/]: Register model data serializers for ...
+[26Nov2024 23:48:53.305] [main/INFO] [Easy NPC/]: - Registering Synched Model Data for EasyNPCBaseModelEntity.
+[26Nov2024 23:48:53.305] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[26Nov2024 23:48:53.306] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[26Nov2024 23:48:53.308] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[26Nov2024 23:48:53.309] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[26Nov2024 23:48:53.310] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[26Nov2024 23:48:53.312] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[26Nov2024 23:48:53.312] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[26Nov2024 23:48:53.313] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[26Nov2024 23:48:53.314] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[26Nov2024 23:48:53.314] [main/INFO] [Easy NPC/]: - Registering Synched Model Position Data for EasyNPCBaseModelEntity.
+[26Nov2024 23:48:53.315] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
+[26Nov2024 23:48:53.317] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
+[26Nov2024 23:48:53.317] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
+[26Nov2024 23:48:53.318] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
+[26Nov2024 23:48:53.319] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
+[26Nov2024 23:48:53.319] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
+[26Nov2024 23:48:53.320] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
+[26Nov2024 23:48:53.322] [main/INFO] [Easy NPC/]: - Registering Synched Model Rotation Data for EasyNPCBaseModelEntity.
+[26Nov2024 23:48:53.322] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[26Nov2024 23:48:53.323] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[26Nov2024 23:48:53.324] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[26Nov2024 23:48:53.324] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[26Nov2024 23:48:53.326] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[26Nov2024 23:48:53.327] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[26Nov2024 23:48:53.328] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[26Nov2024 23:48:53.328] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[26Nov2024 23:48:53.329] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[26Nov2024 23:48:53.330] [main/INFO] [Easy NPC/]: - Registering Synched Model Visibility Data for EasyNPCBaseModelEntity.
+[26Nov2024 23:48:53.332] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[26Nov2024 23:48:53.333] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[26Nov2024 23:48:53.334] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[26Nov2024 23:48:53.335] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[26Nov2024 23:48:53.337] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[26Nov2024 23:48:53.337] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[26Nov2024 23:48:53.338] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[26Nov2024 23:48:53.338] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[26Nov2024 23:48:53.339] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[26Nov2024 23:48:53.340] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[26Nov2024 23:48:53.342] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[26Nov2024 23:48:53.342] [main/INFO] [Easy NPC/]: - Registering Synched Scale Data for EasyNPCBaseModelEntity.
+[26Nov2024 23:48:53.343] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ScaleData
+[26Nov2024 23:48:53.343] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ScaleData
+[26Nov2024 23:48:53.344] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ScaleData
+[26Nov2024 23:48:53.586] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Network Handler for net.minecraftforge.network.simple.SimpleChannel@11818963 with version 21 ...
+[26Nov2024 23:48:54.818] [modloading-worker-0/INFO] [necronomicon/]: Necronomicon Initialized
+[26Nov2024 23:48:54.827] [modloading-worker-0/INFO] [necronomicon/]: File exists, reading config for elocindev.necronomicon.NecronomiconConfig.
+[26Nov2024 23:48:54.829] [modloading-worker-0/INFO] [necronomicon/]: Config for elocindev.necronomicon.NecronomiconConfig read successfully.
+[26Nov2024 23:48:54.847] [modloading-worker-0/INFO] [necronomicon/]: there is a brick about to fall through your roof at terminal velocity
+[26Nov2024 23:48:54.941] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
+[26Nov2024 23:48:55.628] [main/INFO] [journeymap/]: Initializing Packet Registries
+[26Nov2024 23:48:55.654] [main/INFO] [ribbits/]: Registering Ribbit umbrella types...
+[26Nov2024 23:48:55.656] [main/INFO] [ribbits/]: Registering Ribbit professions...
+[26Nov2024 23:48:55.657] [main/INFO] [ribbits/]: Registering Ribbit instruments...
+[26Nov2024 23:48:55.660] [main/INFO] [ribbits/]: Registering Ribbit data serializers...
+[26Nov2024 23:48:55.747] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
+[26Nov2024 23:48:55.775] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Found status: BETA Current: 1.9.3 Target: 1.9.3
+[26Nov2024 23:48:55.776] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwwindows] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/window.json
+[26Nov2024 23:48:55.789] [modloading-worker-0/INFO] [io.redspace.ironsspellbooks.IronsSpellbooks/]: Got IMC []
+[26Nov2024 23:48:55.802] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying mega torch entity block list overrides...
+[26Nov2024 23:48:55.805] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying dread lamp entity block list overrides...
+[26Nov2024 23:48:55.814] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwwindows] Found status: UP_TO_DATE Current: 2.3.0 Target: null
+[26Nov2024 23:48:55.814] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [obscure_api] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/obscure_api/versions.json
+[26Nov2024 23:48:55.824] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.2.0.jar%23242!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.2.0.jar%23242!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[26Nov2024 23:48:55.825] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[26Nov2024 23:48:55.899] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: OUTDATED Current: 5.10.1 Target: 5.10.3
+[26Nov2024 23:48:55.900] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[26Nov2024 23:48:56.047] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.2.0 Target: 47.3.0
+[26Nov2024 23:48:56.047] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/forge/gravestone
+[26Nov2024 23:48:56.578] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: OUTDATED Current: 1.20.1-1.0.21 Target: 1.20.1-1.0.23
+[26Nov2024 23:48:56.579] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [camera] Starting version check at https://update.maxhenkel.de/forge/camera
+[26Nov2024 23:48:56.682] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [camera] Found status: OUTDATED Current: 1.20.1-1.0.14 Target: 1.20.1-1.0.19
+[26Nov2024 23:48:56.682] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/furniture.json
+[26Nov2024 23:48:56.692] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Found status: UP_TO_DATE Current: 3.3.0 Target: null
+[26Nov2024 23:48:56.693] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [refurbished_furniture] Starting version check at https://mrcrayfish.com/api/mod_update/forge/refurbished_furniture
+[26Nov2024 23:48:56.868] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [refurbished_furniture] Found status: BETA_OUTDATED Current: 1.0.5 Target: 1.0.8
+[26Nov2024 23:48:56.868] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[26Nov2024 23:48:57.211] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA_OUTDATED Current: 0.7.6 Target: 0.7.12
+[26Nov2024 23:49:07.064] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[26Nov2024 23:49:14.938] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/cordi/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23241!/assets/.mcassetsroot' uses unexpected schema
+[26Nov2024 23:49:14.938] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/cordi/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23241!/data/.mcassetsroot' uses unexpected schema
+[26Nov2024 23:49:18.587] [main/INFO] [Easy NPC/]: 🗣 Register Easy NPC /easy_npc commands for Easy NPC ...
+[26Nov2024 23:49:18.963] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [minecraft:red_grape (from letsdo-vinery-forge-1.4.28.jar), minecraft:white_grape (from letsdo-vinery-forge-1.4.28.jar), minecraft:savanna_grapes_red (from letsdo-vinery-forge-1.4.28.jar), minecraft:savanna_grapes_white (from letsdo-vinery-forge-1.4.28.jar), minecraft:taiga_grapes_red (from letsdo-vinery-forge-1.4.28.jar), minecraft:taiga_grapes_white (from letsdo-vinery-forge-1.4.28.jar), minecraft:jungle_grapes_red (from letsdo-vinery-forge-1.4.28.jar), minecraft:jungle_grapes_white (from letsdo-vinery-forge-1.4.28.jar)] as it is missing following references: minecraft:red_grape (from letsdo-vinery-forge-1.4.28.jar), 
+	minecraft:white_grape (from letsdo-vinery-forge-1.4.28.jar), 
+	minecraft:savanna_grapes_red (from letsdo-vinery-forge-1.4.28.jar), 
+	minecraft:savanna_grapes_white (from letsdo-vinery-forge-1.4.28.jar), 
+	minecraft:taiga_grapes_red (from letsdo-vinery-forge-1.4.28.jar), 
+	minecraft:taiga_grapes_white (from letsdo-vinery-forge-1.4.28.jar), 
+	minecraft:jungle_grapes_red (from letsdo-vinery-forge-1.4.28.jar), 
+	minecraft:jungle_grapes_white (from letsdo-vinery-forge-1.4.28.jar)
+[26Nov2024 23:49:18.973] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [minecraft:red_grape (from letsdo-vinery-forge-1.4.28.jar), minecraft:white_grape (from letsdo-vinery-forge-1.4.28.jar), minecraft:savanna_grapes_red (from letsdo-vinery-forge-1.4.28.jar), minecraft:savanna_grapes_white (from letsdo-vinery-forge-1.4.28.jar), minecraft:taiga_grapes_red (from letsdo-vinery-forge-1.4.28.jar), minecraft:taiga_grapes_white (from letsdo-vinery-forge-1.4.28.jar), minecraft:jungle_grapes_red (from letsdo-vinery-forge-1.4.28.jar), minecraft:jungle_grapes_white (from letsdo-vinery-forge-1.4.28.jar)] as it is missing following references: minecraft:red_grape (from letsdo-vinery-forge-1.4.28.jar), 
+	minecraft:white_grape (from letsdo-vinery-forge-1.4.28.jar), 
+	minecraft:savanna_grapes_red (from letsdo-vinery-forge-1.4.28.jar), 
+	minecraft:savanna_grapes_white (from letsdo-vinery-forge-1.4.28.jar), 
+	minecraft:taiga_grapes_red (from letsdo-vinery-forge-1.4.28.jar), 
+	minecraft:taiga_grapes_white (from letsdo-vinery-forge-1.4.28.jar), 
+	minecraft:jungle_grapes_red (from letsdo-vinery-forge-1.4.28.jar), 
+	minecraft:jungle_grapes_white (from letsdo-vinery-forge-1.4.28.jar)
+[26Nov2024 23:49:20.207] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:redeco:blocks/soul_terrarium
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'redeco:soul_terrarium'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.2.0-universal.jar%23246!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.2.0-universal.jar%23246!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[26Nov2024 23:49:21.936] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe irons_spellbooks:curios/concentration_amulet
+com.google.gson.JsonSyntaxException: Unknown item 'irons_spellbooks:mithril_ingot'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.2.0-universal.jar%23246!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.2.0-universal.jar%23246!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_44210_(ShapedRecipe.java:278) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:306) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.2.0-universal.jar%23246!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[26Nov2024 23:49:22.020] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe redeco:magenta_upholstery
+com.google.gson.JsonSyntaxException: Unknown item 'minecraft:mangenta_wool'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.2.0-universal.jar%23246!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.2.0-universal.jar%23246!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_44275_(ShapelessRecipe.java:104) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:89) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:84) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.2.0-universal.jar%23246!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[26Nov2024 23:49:22.396] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe slashblade_addon:slashblade_tofu_ishi
+com.google.gson.JsonSyntaxException: Unknown item 'tofucraft:tofuishi'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.2.0-universal.jar%23246!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.2.0-universal.jar%23246!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_44210_(ShapedRecipe.java:278) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:306) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at mods.flammpfeil.slashblade.recipe.SlashBladeShapedRecipeSerializer.m_6729_(SlashBladeShapedRecipeSerializer.java:26) ~[SlashBladeResharped-1.20.1-0.7.3.jar%23225!/:0.7.3]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.2.0-universal.jar%23246!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[26Nov2024 23:49:22.472] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe slashblade_addon:tofu_diamond_blade
+com.google.gson.JsonSyntaxException: Unknown item 'tofucraft:tofu_upgrade_smithing_template'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.2.0-universal.jar%23246!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.2.0-universal.jar%23246!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43917_(Ingredient.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.world.item.crafting.SmithingTransformRecipe$Serializer.m_6729_(SmithingTransformRecipe.java:73) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.world.item.crafting.SmithingTransformRecipe$Serializer.m_6729_(SmithingTransformRecipe.java:71) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.2.0-universal.jar%23246!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[26Nov2024 23:49:22.526] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe slashblade_addon:slashblade_tofu_metal
+com.google.gson.JsonSyntaxException: Unknown item 'tofucraft:tofuishi'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.2.0-universal.jar%23246!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.2.0-universal.jar%23246!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_44210_(ShapedRecipe.java:278) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:306) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at mods.flammpfeil.slashblade.recipe.SlashBladeShapedRecipeSerializer.m_6729_(SlashBladeShapedRecipeSerializer.java:26) ~[SlashBladeResharped-1.20.1-0.7.3.jar%23225!/:0.7.3]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.2.0-universal.jar%23246!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[26Nov2024 23:49:22.540] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 27 recipes
+[26Nov2024 23:49:22.847] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement slashblade_addon:recipes/combat/tofu_diamond_blade: Unknown item id 'slashblade_addon:slashblade_tofu_metal'
+[26Nov2024 23:49:22.903] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement beautify:progression/candelabra: Expected item to be an item, was unknown string 'beautify:lamp_candleabra'
+[26Nov2024 23:49:22.984] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2983 advancements
+[26Nov2024 23:49:23.256] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 12 curio slots
+[26Nov2024 23:49:23.273] [main/ERROR] [top.theillusivec4.curios.Curios/]: talisman is not a registered slot type!
+[26Nov2024 23:49:23.277] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio entities
+[26Nov2024 23:49:30.275] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[26Nov2024 23:49:30.278] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[26Nov2024 23:49:30.278] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[26Nov2024 23:49:30.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[26Nov2024 23:49:30.601] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[26Nov2024 23:49:30.633] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[26Nov2024 23:49:30.861] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[26Nov2024 23:49:30.861] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[26Nov2024 23:49:30.862] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[26Nov2024 23:49:30.862] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[26Nov2024 23:49:30.895] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[26Nov2024 23:49:30.906] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[26Nov2024 23:49:31.082] [Server thread/INFO] [Framework/]: Loading server configs...
+[26Nov2024 23:49:31.097] [Server thread/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[26Nov2024 23:49:31.098] [Server thread/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[26Nov2024 23:49:31.273] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[26Nov2024 23:49:31.274] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[26Nov2024 23:49:31.279] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[26Nov2024 23:49:53.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[26Nov2024 23:50:02.072] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 23:50:02.081] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 23:50:02.082] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 23:50:02.083] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 23:50:02.084] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 23:50:02.085] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 23:50:02.088] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 23:50:02.089] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 23:50:02.090] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 23:50:02.091] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 23:50:02.093] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 23:50:02.095] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 23:50:02.104] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 23:50:02.107] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 23:50:02.111] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 23:50:02.114] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 23:50:02.116] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 23:50:02.119] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 23:50:02.123] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 23:50:02.623] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 23:50:03.131] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 23:50:03.623] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 14%
+[26Nov2024 23:50:04.153] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 11031 ms
+[26Nov2024 23:50:04.155] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (33.269s)! For help, type "help"
+[26Nov2024 23:50:04.232] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[26Nov2024 23:50:34.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /advancement (grant|revoke)
+[26Nov2024 23:50:34.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /attribute <target> <attribute> (get|base|modifier)
+[26Nov2024 23:50:34.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /execute (run|if|unless|as|at|store|positioned|rotated|facing|align|anchored|in|summon|on)
+[26Nov2024 23:50:34.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /bossbar (add|remove|list|set|get)
+[26Nov2024 23:50:34.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /clear [<targets>]
+[26Nov2024 23:50:34.539] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /clone (<begin>|from)
+[26Nov2024 23:50:34.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /damage <target> <amount> [<damageType>]
+[26Nov2024 23:50:34.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /data (merge|get|remove|modify)
+[26Nov2024 23:50:34.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /datapack (enable|disable|list)
+[26Nov2024 23:50:34.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /debug (start|stop|function)
+[26Nov2024 23:50:34.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /defaultgamemode <gamemode>
+[26Nov2024 23:50:34.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /difficulty [peaceful|easy|normal|hard]
+[26Nov2024 23:50:34.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /effect (clear|give)
+[26Nov2024 23:50:34.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /me <action>
+[26Nov2024 23:50:34.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /enchant <targets> <enchantment> [<level>]
+[26Nov2024 23:50:34.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /experience (add|set|query)
+[26Nov2024 23:50:34.556] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /xp -> experience
+[26Nov2024 23:50:34.556] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /fill <from> <to> <block> [replace|keep|outline|hollow|destroy]
+[26Nov2024 23:50:34.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /fillbiome <from> <to> <biome> [replace]
+[26Nov2024 23:50:34.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /forceload (add|remove|query)
+[26Nov2024 23:50:34.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /function <name>
+[26Nov2024 23:50:34.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /gamemode <gamemode> [<target>]
+[26Nov2024 23:50:34.559] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /gamerule (announceAdvancements|artifacts.anglersHat.luckOfTheSeaLevelBonus|artifacts.anglersHat.lureLevelBonus|artifacts.antidoteVessel.enabled|artifacts.antidoteVessel.maxEffectDuration|artifacts.aquaDashers.enabled|artifacts.bunnyHoppers.doCancelFallDamage|artifacts.bunnyHoppers.jumpBoostLevel|artifacts.charmOfSinking.enabled|artifacts.chorusTotem.cooldown|artifacts.chorusTotem.doConsumeOnUse|artifacts.chorusTotem.healthRestored|artifacts.chorusTotem.teleportationChance|artifacts.cloudInABottle.enabled|artifacts.cloudInABottle.sprintJumpHorizontalVelocity|artifacts.cloudInABottle.sprintJumpVerticalVelocity|artifacts.cowboyHat.speedLevel|artifacts.crossNecklace.bonusInvincibilityTicks|artifacts.crossNecklace.cooldown|artifacts.crystalHeart.healthBonus|artifacts.diggingClaws.digSpeedBonus|artifacts.diggingClaws.toolTier|artifacts.eternalSteak.cooldown|artifacts.eternalSteak.enabled|artifacts.everlastingBeef.cooldown|artifacts.everlastingBeef.enabled|artifacts.feralClaws.attackSpeedBonus|artifacts.fireGauntlet.fireDuration|artifacts.flamePendant.cooldown|artifacts.flamePendant.doGrantFireResistance|artifacts.flamePendant.fireDuration|artifacts.flamePendant.strikeChance|artifacts.flippers.swimSpeedBonus|artifacts.goldenHook.experienceBonus|artifacts.heliumFlamingo.flightDuration|artifacts.heliumFlamingo.rechargeDuration|artifacts.kittySlippers.enabled|artifacts.luckyScarf.fortuneBonus|artifacts.nightVisionGoggles.enabled|artifacts.nightVisionGoggles.strength|artifacts.noveltyDrinkingHat.drinkingDurationMultiplier|artifacts.noveltyDrinkingHat.eatingDurationMultiplier|artifacts.obsidianSkull.fireResistanceCooldown|artifacts.obsidianSkull.fireResistanceDuration|artifacts.onionRing.hasteDurationPerFoodPoint|artifacts.onionRing.hasteLevel|artifacts.panicNecklace.cooldown|artifacts.panicNecklace.speedDuration|artifacts.panicNecklace.speedLevel|artifacts.pickaxeHeater.enabled|artifacts.plasticDrinkingHat.drinkingDurationMultiplier|artifacts.plasticDrinkingHat.eatingDurationMultiplier|artifacts.pocketPiston.knockbackStrength|artifacts.powerGlove.attackDamageBonus|artifacts.rootedBoots.doGrowPlantsAfterEating|artifacts.rootedBoots.enabled|artifacts.rootedBoots.hungerReplenishingDuration|artifacts.runningShoes.doIncreaseStepHeight|artifacts.runningShoes.speedBonus|artifacts.scarfOfInvisibility.enabled|artifacts.shockPendant.cooldown|artifacts.shockPendant.doCancelLightningDamage|artifacts.shockPendant.strikeChance|artifacts.snorkel.enabled|artifacts.snorkel.isInfinite|artifacts.snorkel.waterBreathingDuration|artifacts.snowshoes.allowWalkingOnPowderSnow|artifacts.snowshoes.slipperinessReduction|artifacts.steadfastSpikes.enabled|artifacts.steadfastSpikes.knockbackResistance|artifacts.superstitiousHat.lootingLevelBonus|artifacts.thornPendant.cooldown|artifacts.thornPendant.maxDamage|artifacts.thornPendant.minDamage|artifacts.thornPendant.strikeChance|artifacts.umbrella.isGlider|artifacts.umbrella.isShield|artifacts.universalAttractor.enabled|artifacts.vampiricGlove.absorptionChance|artifacts.vampiricGlove.absorptionRatio|artifacts.vampiricGlove.maxHealingPerHit|artifacts.villagerHat.reputationBonus|artifacts.whoopeeCushion.fartChance|blockExplosionDropDecay|commandBlockOutput|commandModificationBlockLimit|disableElytraMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doVinesSpread|doWardenSpawning|doWeatherCycle|drowningDamage|fallDamage|fireDamage|forgiveDeadPlayers|freezeDamage|globalSoundEvents|keepInventory|lavaSourceConversion|logAdminCommands|maxCommandChainLength|maxEntityCramming|mobExplosionDropDecay|mobGriefing|naturalRegeneration|playersSleepingPercentage|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|snowAccumulationHeight|spawnRadius|spectatorsGenerateChunks|tntExplosionDropDecay|universalAnger|waterSourceConversion)
+[26Nov2024 23:50:34.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /give <targets> <item> [<count>]
+[26Nov2024 23:50:34.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /help [<command>]
+[26Nov2024 23:50:34.561] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /item (replace|modify)
+[26Nov2024 23:50:34.561] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /kick <targets> [<reason>]
+[26Nov2024 23:50:34.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /kill [<targets>]
+[26Nov2024 23:50:34.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /list [uuids]
+[26Nov2024 23:50:34.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /locate (structure|biome|poi)
+[26Nov2024 23:50:34.564] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /loot (replace|insert|give|spawn)
+[26Nov2024 23:50:34.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /msg <targets> <message>
+[26Nov2024 23:50:34.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tell -> msg
+[26Nov2024 23:50:34.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /w -> msg
+[26Nov2024 23:50:34.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /particle <name> [<pos>]
+[26Nov2024 23:50:34.567] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /place (feature|jigsaw|structure|template)
+[26Nov2024 23:50:34.567] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /playsound <sound> (master|music|record|weather|block|hostile|neutral|player|ambient|voice)
+[26Nov2024 23:50:34.568] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /reload
+[26Nov2024 23:50:34.568] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /recipe (give|take)
+[26Nov2024 23:50:34.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /return <value>
+[26Nov2024 23:50:34.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /ride <target> (mount|dismount)
+[26Nov2024 23:50:34.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /say <message>
+[26Nov2024 23:50:34.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /schedule (function|clear)
+[26Nov2024 23:50:34.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /scoreboard (objectives|players)
+[26Nov2024 23:50:34.572] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /seed
+[26Nov2024 23:50:34.572] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /setblock <pos> <block> [destroy|keep|replace]
+[26Nov2024 23:50:34.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /spawnpoint [<targets>]
+[26Nov2024 23:50:34.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /setworldspawn [<pos>]
+[26Nov2024 23:50:34.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /spectate [<target>]
+[26Nov2024 23:50:34.576] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /spreadplayers <center> <spreadDistance> <maxRange> (<respectTeams>|under)
+[26Nov2024 23:50:34.576] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /stopsound <targets> [*|master|music|record|weather|block|hostile|neutral|player|ambient|voice]
+[26Nov2024 23:50:34.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /summon <entity> [<pos>]
+[26Nov2024 23:50:34.579] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tag <targets> (add|remove|list)
+[26Nov2024 23:50:34.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /team (list|add|remove|empty|join|leave|modify)
+[26Nov2024 23:50:34.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /teammsg <message>
+[26Nov2024 23:50:34.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tm -> teammsg
+[26Nov2024 23:50:34.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /teleport (<location>|<destination>|<targets>)
+[26Nov2024 23:50:34.583] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tp -> teleport
+[26Nov2024 23:50:34.583] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tellraw <targets> <message>
+[26Nov2024 23:50:34.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /time (set|add|query)
+[26Nov2024 23:50:34.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /title <targets> (clear|reset|title|subtitle|actionbar|times)
+[26Nov2024 23:50:34.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /trigger <objective> [add|set]
+[26Nov2024 23:50:34.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /weather (clear|rain|thunder)
+[26Nov2024 23:50:34.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /worldborder (add|set|center|damage|get|warning)
+[26Nov2024 23:50:34.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /jfr (start|stop)
+[26Nov2024 23:50:34.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /ban-ip <target> [<reason>]
+[26Nov2024 23:50:34.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /banlist [ips|players]
+[26Nov2024 23:50:34.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /ban <targets> [<reason>]
+[26Nov2024 23:50:34.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /deop <targets>
+[26Nov2024 23:50:34.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /op <targets>
+[26Nov2024 23:50:34.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /pardon <targets>
+[26Nov2024 23:50:34.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /pardon-ip <target>
+[26Nov2024 23:50:34.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /perf (start|stop)
+[26Nov2024 23:50:34.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /save-all [flush]
+[26Nov2024 23:50:34.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /save-off
+[26Nov2024 23:50:34.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /save-on
+[26Nov2024 23:50:34.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /setidletimeout <minutes>
+[26Nov2024 23:50:34.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /stop
+[26Nov2024 23:50:34.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /whitelist (on|off|list|add|remove|reload)
+[26Nov2024 23:50:34.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /octolib config reload (all|<path>)
+[26Nov2024 23:50:34.598] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /easy_npc (configure|debug|delete|dialog|navigation|owner|preset|render|skin|sound|trading)
+[26Nov2024 23:50:34.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /horde trigger
+[26Nov2024 23:50:34.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /obscure reload
+[26Nov2024 23:50:34.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tt_reload
+[26Nov2024 23:50:34.615] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /dimensiontitle <dimension>
+[26Nov2024 23:50:34.623] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /biometitle <biome>
+[26Nov2024 23:50:34.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /sbp (list|give|removeNonPlayer)
+[26Nov2024 23:50:34.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /sophisticatedbackpacks -> sbp
+[26Nov2024 23:50:34.625] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /relics (maximize|minimize|level|experience|points|ability)
+[26Nov2024 23:50:34.625] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /forge (tps|track|entity|generate|dimensions|mods|tags)
+[26Nov2024 23:50:34.626] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /config showfile <mod> <type>
+[26Nov2024 23:50:34.626] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /torchmaster [torchdump|entitydump]
+[26Nov2024 23:50:34.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /curios (list|replace|set|add|remove|clear|drop|reset)
+[26Nov2024 23:50:34.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /coro config common (reload|save|get|set)
+[26Nov2024 23:50:34.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /createScroll <spell> <level>
+[26Nov2024 23:50:34.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /createSpellBook <slots> [randomize]
+[26Nov2024 23:50:34.631] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /createImbuedSword <item> <spell> <level>
+[26Nov2024 23:50:34.631] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /createDebugWizard <spell> <spellLevel> <targetsPlayer> <cancelAfterTicks>
+[26Nov2024 23:50:34.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /cast <casters> <spell> [<level>|<function value>]
+[26Nov2024 23:50:34.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /mana (set|add|get)
+[26Nov2024 23:50:34.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /modlist
+[26Nov2024 23:50:34.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /learnSpell (forget|learn)
+[26Nov2024 23:50:34.634] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /clearCooldowns [all|player]
+[26Nov2024 23:50:34.634] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /clearRecasts (all|player)
+[26Nov2024 23:50:34.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /waterframes (edit|audit|give|whitelist)
+[26Nov2024 23:50:34.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /waypoint (create|delete)
+[26Nov2024 23:50:34.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /wp -> waypoint
+[26Nov2024 23:50:34.636] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /restore <target> <death_id> (replace|add)
+[26Nov2024 23:50:34.636] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /restoreinventory -> restore
+[26Nov2024 23:50:34.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /clearcosarmor [<targets>]
+[26Nov2024 23:50:34.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /coshat
+[26Nov2024 23:50:34.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /cmdconfig
+[26Nov2024 23:50:48.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[26Nov2024 23:50:48.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ip<--[HERE]
+[26Nov2024 23:51:53.672] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@5792f5b1[id=<null>,name=MrGatoX0,properties={},legacy=false] (/127.18.230.88:47331) lost connection: Disconnected
+[26Nov2024 23:52:23.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[26Nov2024 23:52:23.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[26Nov2024 23:52:23.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[26Nov2024 23:52:23.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[26Nov2024 23:52:24.621] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[26Nov2024 23:52:25.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/graveyard:past
+[26Nov2024 23:52:25.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[26Nov2024 23:52:25.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[26Nov2024 23:52:25.352] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[26Nov2024 23:52:25.352] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (past): All chunks are saved
+[26Nov2024 23:52:25.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[26Nov2024 23:52:25.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[26Nov2024 23:52:25.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[26Nov2024 23:52:25.372] [Server thread/INFO] [Framework/]: Unloading server configs...
+[26Nov2024 23:52:25.375] [Server thread/INFO] [Framework/]: Sending config unload event for refurbished_furniture.server.toml
+[26Nov2024 23:52:25.378] [Server thread/INFO] [Framework/]: Sending config unload event for goblintraders-entities.toml
+[26Nov2024 23:52:25.380] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
